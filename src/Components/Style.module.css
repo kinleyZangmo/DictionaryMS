@@ -1,0 +1,38 @@
+ *{
+    font-family: 'Inter var', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+a{
+    text-decoration: none;
+}
+
+
+nav{
+    background-color: rgba(92, 30, 153, 0.695);
+    padding:5px 20px;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    color: aliceblue;
+}
+nav a:hover{
+    color: rgba(36, 21, 11, 0.907);
+}
+.logo{
+    flex:1;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.logo img{
+    width: 70px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
