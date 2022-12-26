@@ -1,5 +1,5 @@
 import React from "react";
-import "./searchBar.css"
+import "./searchBar.css";
 import * as FaIcons from "react-icons/fa";
 
 function SearchBar() {
@@ -14,6 +14,7 @@ function SearchBar() {
       <div className="buttons">
         <button>Add works</button>
         <button>Dictionary</button>
+        <button>Catagory</button>
       </div>
     </div>
   );

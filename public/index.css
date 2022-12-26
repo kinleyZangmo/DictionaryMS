@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #a0ebe3;
+  /* background-color: #f0ebeb; */
+  color: #000000;
+  line-height: 1.6;
+}
+
+.mainContainer {
+  width: 90%;
+  margin: auto;
+  height: 400px;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  border-radius: 10px;
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 15px;
+  padding: 20px 20px 0;
+  margin: 0 20px;
+  position: relative;
+}
+.word-row {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 5px;
+}
+.word-row div {
+  margin-right: 20px;
+}
+.parts-of-speech {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100;
+}
+.dzoe {
+  background-color: #800000;
+  color: #fff;
+  padding: 0 5px;
+}
+.dzot {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: -10px;
+  font-family: "Dzongkha", Lato;
+}
