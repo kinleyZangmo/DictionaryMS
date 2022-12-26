@@ -20,7 +20,6 @@
     grid-template-columns: 6rem 1fr 3fr 6fr 6rem ;
     /* grid-template-columns: 5rem 1fr 5fr 11fr 5rem ; */
     background-color: beige;
-    background-color: blue;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -102,17 +101,23 @@
     .menu-link .hamburger-menu{
         display: block;
         font-size: 2rem;
-        background-color: rgba(137, 43, 226, 0.463);
      }
+     .menu-link .hamburger-menu a{
+        
+    }
 
-    
+ 
  
 } 
 
  @media (max-width: 500px){
 
+    .logo img{
+        width: 40px;
+    }
+
     .main-nav{
-        grid-template-columns: 5rem 2fr 20fr 1fr 1rem ;
+        grid-template-columns: 4rem 2fr 20fr 1fr 1rem ;
     }
 
     .title{
