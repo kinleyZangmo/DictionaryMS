@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 import * as FaIcon from "react-icons/fa";
 import * as CgIcon from "react-icons/cg";
@@ -10,7 +11,7 @@ const Navbar = () => {
     <>
       <nav className="main-nav">
         <div className="logo">
-          <img src="./logo.jpg"></img>
+          <img src="./logo.jpg" alt="logo"></img>
         </div>
 
         <div className="title">
@@ -24,16 +25,16 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <a href="#">Dictionary</a>
+                <Link to ="/">Home</Link>
             </li>
             <li>
-              <a href="#">Edit History</a>
+            <Link to ="/edit-history">Edit History</Link>
             </li>
             <li>
-              <a href="#">Comment List</a>
+            <Link to ="/comment-list">Comment List</Link>
             </li>
             <li>
-              <a href="#">Users</a>
+            <Link to ="/users">Users</Link>
             </li>
             <li className="profile-logo">
               <CgIcon.CgProfile />
